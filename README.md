@@ -13,12 +13,12 @@ Edit the line shown, open a pull request, and the checks below run
 automatically.
 
 - Flat white costs 3.20 pounds: `site/index.html` line 44
-- Full breakfast costs 9.50 pounds: `site/index.html` line 48
-- Lemon drizzle cake costs 3.80 pounds: `site/index.html` line 52
-- Open Wednesday to Monday, 8am to 4pm: `site/index.html` line 6
-- Address: 3 Quay Street, Whitby: `site/index.html` line 17
-- Phone: 01947 600 000: `site/index.html` line 63
-- Colours and spacing: the design tokens in `site/styles.css` lines 1–11.
+- Full breakfast costs 9.50 pounds: `site/index.html` line 53
+- Lemon drizzle cake costs 3.80 pounds: `site/index.html` line 61
+- Open Wednesday to Monday, 8am to 4pm: `site/index.html` line 38
+- Address: 3 Quay Street, Whitby: `site/index.html` line 20
+- Phone: 01947 600 000: `site/index.html` line 74
+- Colours and spacing: the design tokens in `site/styles.css` lines 1–20.
 
 ## Checks that protect your site
 
