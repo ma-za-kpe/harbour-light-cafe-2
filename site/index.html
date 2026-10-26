@@ -1,22 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coming soon</title>
-  <link rel="stylesheet" href="%BASE%styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Harbour Light Café — a harbourside café in Whitby. Flat whites, full breakfasts and lemon drizzle cake. Open Wednesday to Monday, 8am to 4pm. Book a table.">
+<meta property="og:title" content="Harbour Light Café">
+<meta property="og:description" content="A harbourside café in Whitby. Flat whites, full breakfasts and lemon drizzle cake. Open Wednesday to Monday, 8am to 4pm. Book a table.">
+<title>Harbour Light Café</title>
+<link rel="icon" href="%BASE%favicon.svg">
+<link rel="stylesheet" href="%BASE%styles.css">
 </head>
 <body data-release="%RELEASE%">
-  <a class="skip" href="#main">Skip to content</a>
-  <header>
-    <p class="brand">Coming soon</p>
-  </header>
-  <main id="main">
-    <h1>This site is being built</h1>
-    <p>The crew is preparing the first release of this page.</p>
-  </main>
-  <footer>
-    <p>Built by Yard Crew.</p>
-  </footer>
+<header class="masthead">
+  <a class="brand" href="#top" aria-label="Harbour Light Café — home">
+    <svg class="mark" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true" focusable="false">
+      <path d="M4 35 C10 31 14 31 20 35 C26 39 30 39 36 35 C40 32 44 32 46 34" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M4 41 C10 37 14 37 20 41 C26 45 30 45 36 41 C40 38 44 38 46 40" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" opacity="0.5"/>
+      <circle cx="24" cy="15" r="7.5" fill="var(--accent)"/>
+      <g stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round">
+        <line x1="24" y1="1" x2="24" y2="4.5"/>
+        <line x1="33" y1="6" x2="30.5" y2="8.5"/>
+        <line x1="15" y1="6" x2="17.5" y2="8.5"/>
+        <line x1="38" y1="15" x2="34.5" y2="15"/>
+        <line x1="10" y1="15" x2="13.5" y2="15"/>
+      </g>
+    </svg>
+    <span class="brand__name">Harbour Light Café</span>
+  </a>
+  <p class="demo">Demonstration site — a fictional café</p>
+</header>
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Harbourside café · Whitby</p>
+    <h1>Harbour Light Café</h1>
+    <p class="lede">Flat whites, full breakfasts and lemon drizzle cake, made fresh on the quay. Pull up a chair and stay a while.</p>
+    <a class="cta" href="mailto:hello@harbourlightcafe.example?subject=Table%20booking">Book a table</a>
+  </section>
+  <section class="panel" aria-labelledby="menu-h">
+    <h2 id="menu-h">What we serve</h2>
+    <ul class="menu">
+      <li class="card">
+        <span class="card__label">Flat white</span>
+        <span class="card__price">£3.20</span>
+      </li>
+      <li class="card">
+        <span class="card__label">Full breakfast</span>
+        <span class="card__price">£9.50</span>
+      </li>
+      <li class="card">
+        <span class="card__label">Lemon drizzle cake</span>
+        <span class="card__price">£3.80</span>
+      </li>
+    </ul>
+  </section>
+  <section class="panel" aria-labelledby="hours-h">
+    <h2 id="hours-h">When we're open</h2>
+    <p class="fact">Open Wednesday to Monday, 8am to 4pm</p>
+  </section>
+  <section class="panel" aria-labelledby="find-h">
+    <h2 id="find-h">Find us</h2>
+    <p class="fact"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=3%20Quay%20Street%2C%20Whitby">3 Quay Street, Whitby</a></p>
+    <p class="fact"><a class="link" href="tel:01947600000">01947 600 000</a></p>
+  </section>
+</main>
+<footer class="site-foot">
+  <p>Harbour Light Café · 3 Quay Street, Whitby</p>
+  <p class="demo">This is a demonstration site for a fictional business.</p>
+</footer>
 </body>
 </html>
