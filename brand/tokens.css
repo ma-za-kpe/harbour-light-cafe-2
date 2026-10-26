@@ -1,0 +1,9 @@
+:root {
+  --ink: #0a192f;
+  --paper: #f8fafc;
+  --accent: #0ea5e9;
+  --accent-ink: #0a192f;
+  --muted: #475569;
+  --font-display: "Avenir Next", Montserrat, "Segoe UI", system-ui, sans-serif;
+  --font-body: "Segoe UI", "Gill Sans", "Trebuchet MS", system-ui, sans-serif;
+}
